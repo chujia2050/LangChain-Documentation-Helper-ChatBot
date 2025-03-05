@@ -22,6 +22,7 @@ langchain = "*"
 langchain-community = "*"
 streamlit = "*"
 pillow = "*"
+langgraph = "*"
 
 [dev-packages]
 
