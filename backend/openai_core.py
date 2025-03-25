@@ -35,7 +35,7 @@ structured_llm_router = llm.with_structured_output(RouteQuery)
 # Prompt
 system = """
 You are an expert at routing a user question to a vectorstore or web search.
-The vectorstore contains documents related to Mobily and OCaterpillar.
+The vectorstore contains documents related to Langchain.
 Use the vectorstore for questions on these topics. Otherwise, use web-search. please show me your thinking process."""
 
 human_msg = """
